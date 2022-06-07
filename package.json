@@ -2,6 +2,9 @@
   "name": "kickstart",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
   "repository": "https://github.com/vitamin33/kickstart.git",
   "author": "Vitalii Serbyn <vivitseser@gmail.com>",
   "license": "MIT",
