@@ -1,0 +1,15 @@
+{
+  "name": "kickstart",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/vitamin33/kickstart.git",
+  "author": "Vitalii Serbyn <vivitseser@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^10.1.0",
+    "ganache-cli": "^6.12.2",
+    "mocha": "^10.0.0",
+    "solc": "^0.8.14-fixed",
+    "web3": "^1.7.3"
+  }
+}
