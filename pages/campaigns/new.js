@@ -28,7 +28,7 @@ class CampaignNew extends Component {
                 })
             Router.push('/');
         } catch (e) {
-            this.setState({ errorMessage: e.message})
+            this.setState({ errorMessage: e.message});
         }
 
         this.setState({ loading: false });
