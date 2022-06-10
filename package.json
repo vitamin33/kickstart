@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "dev": "next dev"
+    "dev": "node server.js"
   },
   "repository": "https://github.com/vitamin33/kickstart.git",
   "author": "Vitalii Serbyn <vivitseser@gmail.com>",
