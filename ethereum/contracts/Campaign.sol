@@ -62,7 +62,7 @@ contract Campaign {
         return requests[index].value;
     }
 
-    function createRequest (string memory description, uint value, address recipient) public restricted {
+    function createRequest(string memory description, uint value, address recipient) public restricted {
         Request storage r = requests[requestsCount++];
         r.description = description;
         r.value = value;
@@ -81,7 +81,7 @@ contract Campaign {
         request.approvalsCount++;
     }
 
-    function finilizeRequest(uint index) public payable restricted {
+    function finalizeRequest(uint index) public payable restricted {
         Request storage request = requests[index];
         require(!request.complete);
         require(request.approvalsCount > (approversCount / 2));
