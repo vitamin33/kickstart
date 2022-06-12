@@ -4,7 +4,7 @@ const compiledFactory = require('../ethereum/build/CampaignFactory.json').Campai
 const stringAbi = JSON.stringify(compiledFactory.abi);
 const instance = new web3.eth.Contract(
     JSON.parse(stringAbi),
-    '0xf29c3ce2CEE05B5025d785dd3b0e53aF0b1C8a01'
+    '0xCcd20F1AEE1f7747611B1919BeEE63e23ecfD451'
 );
 
 export default instance;

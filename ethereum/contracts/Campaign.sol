@@ -29,7 +29,7 @@ contract Campaign {
     mapping(address => bool) public approvers;
 
     uint public requestsCount;
-    mapping (uint => Request) requests;
+    mapping (uint => Request) public requests;
 
     uint public approversCount;
 
@@ -61,6 +61,7 @@ contract Campaign {
 
         return requests[index].value;
     }
+
 
     function createRequest(string memory description, uint value, address recipient) public restricted {
         Request storage r = requests[requestsCount++];

@@ -1,6 +1,8 @@
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 const Web3 = require('web3');
 const compiledFactory = require('./build/CampaignFactory.json').CampaignFactory;
+
+//TODO add your mnemonic
 const MNEMONIC = 'paste your mnemonic here';
 
 const provider = new HDWalletProvider(
